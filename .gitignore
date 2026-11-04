@@ -1,0 +1,29 @@
+# Generated firmware outputs
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+*.o
+*.d
+*.a
+build/
+.pio/
+
+# Local configs
+.vscode/
+.idea/
+.env
+.env.*
+
+# Device capture data and local logs
+*.jsonl
+logs/
+*.pcap
+*.pcapng
+*.csv.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+__pycache__/
